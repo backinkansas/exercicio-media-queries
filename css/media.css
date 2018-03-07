@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    h2 {
+        width: 53%
+    }
+}
+
+@media (max-width: 768px) {
+    .fotos {
+        grid-template-columns: 30% 30% 30%;
+    }    
+}
+
+@media (max-width: 360px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        width: 84%;
+    }
+}
+
+@media (max-width: 360px) {
+    h2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .fotos {
+        grid-template-columns: 95%;
+    }
+}
